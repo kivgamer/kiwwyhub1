@@ -1,4 +1,8 @@
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-27024.0546875, 65.898796081543, 337.60375976563)
+wait(3)
 local VirtualUser = game:GetService('VirtualUser')
+
 
 
 while _G.x do wait(.1)
@@ -16,9 +20,8 @@ if placeId == 7449423635 then
 
           
 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-27024.0546875, 65.898796081543, 337.60375976563)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-27024.0546875, 65.898796081543, 337.60375976563)
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-27024.0546875, 65.898796081543, 337.60375976563)
+
+
 
     
 
