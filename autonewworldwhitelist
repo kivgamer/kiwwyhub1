@@ -5,7 +5,7 @@ _G.weapon = "Superhuman"
 local VirtualUser = game:GetService('VirtualUser')
 
 
-while _G.x do wait(.1)
+while _G.x do wait(30)
 MyLevel = game:GetService("Players").LocalPlayer.Data.Level.Value
 if MyLevel >= 1500 then
 Mon = "rip_indra [Lv. 1500] [Boss]"
