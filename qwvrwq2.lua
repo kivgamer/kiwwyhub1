@@ -32,8 +32,7 @@ print(Inventory)
 
 
 
-local url =
-   "https://discord.com/api/webhooks/942790213430808606/9K8_3nRfkfE8J54SBBF3Tbi0sR9-dvvTTLSo2ttDtUurCWVeIef_ira3PQTzZ9dEABb2"
+
 local data = {
    ["content"] = " message(no embed)- you can take out embed if by deleting the bottom stuff(where it says EMBEDS)",
    ["embeds"] = {
