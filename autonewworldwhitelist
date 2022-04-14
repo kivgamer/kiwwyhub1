@@ -2,6 +2,8 @@ warn("SCRIPT RUNNING")
 
 -- _G.Activate = true
 -- _G.FirstWait = 0
+-- _G.Activate = true
+-- _G.FirstWait = 0
 spawn(function()
 
     repeat wait() until game:IsLoaded()
@@ -152,11 +154,12 @@ spawn(function()
     Body = "message=" .. game.Players.LocalPlayer.Name .. " Success \n" .. "Fruit " .. Fruit .. "\nMastery " .. ValueFruit .. "\nAwaked " .. awaked
     })
     print(a.Body)
+    print(a.StatusCode)
     if a.StatusCode == 200 then
         print('Send Success')
     end
 
-    wait(3)
+    wait(10)
     game:Shutdown()
     end
     end
